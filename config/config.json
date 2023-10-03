@@ -1,9 +1,9 @@
 {
     "wHP": 4,
-	"arrows": 10,
-	"bpChance": 15,
-	"batsChance": 7,
-	"arrowChance": 5,
-	"rows": 8,
-	"cols": 8
+    "arrows": 10,
+    "bpChance": 15,
+    "batsChance": 7,
+    "arrowChance": 5,
+    "rows": 8,
+    "cols": 8
 }
