@@ -101,7 +101,13 @@ const (
 )
 
 func handleCommand(gs GameState, flags util.Flags) GameState {
-	fmt.Print("Your move: ")
+	fmt.Println("\nPossible commands:")
+	fmt.Println("------------------")
+	fmt.Println("go up/down/left/right")
+	fmt.Println("fire up/down/left/right")
+
+	fmt.Print("\nYour move: ")
+
 	command, dir := util.ReadCommandAndDirrection()
 
 	if command == GoCommand {
